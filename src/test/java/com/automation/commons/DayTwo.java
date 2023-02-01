@@ -14,7 +14,7 @@ public class DayTwo extends DayOne{
 
     @Before
     public void setUp(){
-        createDriver();
+        createDriver("https://www.saucedemo.com/");
     }
 
     @Test
