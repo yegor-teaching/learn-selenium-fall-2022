@@ -1,5 +1,6 @@
 package com.automation.commons;
 
+import com.automation.utils.DriverUtils;
 import org.junit.After;
 import org.junit.Assert;
 import org.junit.Before;
@@ -12,7 +13,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.time.Duration;
 
-public class BrowserSynchronization extends DayOne{
+public class BrowserSynchronization extends DriverUtils {
 
     @Test
     public void learnWaits() {
