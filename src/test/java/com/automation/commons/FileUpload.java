@@ -1,5 +1,6 @@
 package com.automation.commons;
 
+import com.automation.utils.DriverUtils;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
@@ -7,7 +8,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
-public class FileUpload extends DayOne{
+public class FileUpload extends DriverUtils {
 
     @Test
     public void learnFileUpload() throws InterruptedException {

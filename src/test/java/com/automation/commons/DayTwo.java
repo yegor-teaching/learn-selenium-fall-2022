@@ -1,5 +1,6 @@
 package com.automation.commons;
 
+import com.automation.utils.DriverUtils;
 import org.junit.After;
 import org.junit.Assert;
 import org.junit.Before;
@@ -10,7 +11,7 @@ import org.openqa.selenium.WebElement;
 
 import java.util.List;
 
-public class DayTwo extends DayOne{
+public class DayTwo extends DriverUtils {
 
     @Before
     public void setUp(){
